@@ -1,7 +1,6 @@
 //
 //　超簡単なオブジェクト指向の説明プログラム in Swift
 //
-
 // 犬クラス
 class Dog {
 
@@ -13,7 +12,7 @@ class Dog {
         self.age = age ?? 1
     }
     
-    // 年の数だけほえる
+    // 年の数ほえる
     func wow(){
         for _ in 0..<self.age {
             print("Vow! ")
@@ -26,27 +25,23 @@ class Dog {
     }
 }
 
-// 犬１．ポチ
 var dog1 = Dog(name:"pochi",age:3)
 println("僕は\(dog1.name)です。\(dog1.age)才です。")
 // ３つ年を取る
 dog1.getOld(3)
 dog1.wow()
 
-// 犬２．タロ
 var dog2 = Dog(name:"taro",age:10)
 // ５つ年を取る
-dog1.getOld(5)
-println("僕は\(dog1.name)です。\(dog1.age)才です。")
-dog1.wow()
+dog2.getOld(5)
+println("僕は\(dog2.name)です。\(dog2.age)才です。")
+dog2.wow()
 
-/* 実行結果
-僕はpochiです。3才です。
-Vow! Vow! Vow! Vow! Vow! Vow! 
-僕はpochiです。11才です。
-Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! 
-*/
-
+//実行結果
+//僕はpochiです。3才です。
+//Vow! Vow! Vow! Vow! Vow! Vow! 
+//僕はtaroです。15才です。
+//Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! Vow! 
 
 // さて、ここまでのコードで何がオブジェクト指向なのか？
 //----------------------------------------------
