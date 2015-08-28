@@ -138,8 +138,8 @@ $data = $url;
 		// api_authから認証情報を取得 
 		// ほんとはＤＢから
 		$this->auth["associate_id"] = 'kangaroonote-22';
-		$this->auth["access_key"] = 'AKIAJU6BB3NXANG4LDWA';
-		$this->auth["secret_access_key"] = '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';
+		$this->auth["access_key"] = '***************'; //内緒
+		$this->auth["secret_access_key"] = '**************************************';//内緒
 	}
 }
 ?>
