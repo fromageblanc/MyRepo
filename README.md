@@ -1,9 +1,9 @@
 # MyRepo
 
-Github test
-
 ## member
 
-*testuser
+*fromageblanc
 
-ソース倉庫
+このレポジトリは個人的なメモ用途として使用しています。
+個々のソースファイルに関連はありません（そもそも言語が混在してます）。
+
