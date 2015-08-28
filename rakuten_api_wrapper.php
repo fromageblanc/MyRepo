@@ -85,9 +85,9 @@ class RakutenApi implements Modifier
 	{
 		// api_authから認証情報を取得
 		$this->auth["application_id"] = "1023468887477365220";
-		$this->auth["application_secret"] = "73c46c7dc52858c19c7cfdb01f074913b9e333be";
-		$this->auth["affiliate_id"] = "108c0d44.24842459.108c0d45.19568f3b";
-		$this->auth["callback_domain"] = "kangaroonote.com";
+		$this->auth["application_secret"] = "*****************************";
+		$this->auth["affiliate_id"] = "*********.*********.***********.*************";
+		$this->auth["callback_domain"] = "************.com";
 		$this->auth["policy_url"] = "";
 	}
 }
