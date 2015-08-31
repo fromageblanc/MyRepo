@@ -1,4 +1,5 @@
 <?php
+	// 汎用ページャー 
 
 	 define('SHOW_INDEX_MAX',7); //奇数を指定すること
 	 define('OBJECT_NUM_PER_PAGE',10);
