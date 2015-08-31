@@ -1,7 +1,9 @@
-
-/* 日本語対応str_replace */
+<?php
+/* 日本語対応str_replace php */
 function mb_str_replace($search, $replace, $haystack, $encoding="UTF-8")
 {
+        /* 日本語対応str_replace */
+
         // 検索先は配列か？
         $notArray = !is_array($haystack) ? TRUE : FALSE;
         // コンバート
@@ -31,3 +33,4 @@ $replace = "かきくけこ";
 
 var_dump(mb_str_replace($search,$replace,"あいうえお","UTF-8")); // かきくけこ
 
+?>
