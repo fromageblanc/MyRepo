@@ -4,7 +4,7 @@
 	 define('SHOW_INDEX_MAX',7); //奇数を指定すること
 	 define('OBJECT_NUM_PER_PAGE',10);
 
-	 // test data
+	 // test data array
 	 $data = array();for($i=0;$i<361;$i++) {$data[$i] = $i;}
 
 	 // page
